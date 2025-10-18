@@ -1,0 +1,19 @@
+discord:
+  token: ""
+  
+telegram:
+  bot_token: ""
+  chat_id: "6083322009"
+  allowed_user_ids: [6083322009]
+
+monitoring:
+  tracked_users: [956212484283453551, 992943668161953873, 1198400306338336821, 901300740545450005]
+  
+  timezone: "Asia/Tehran"
+  
+  voice_monitoring_duration: 60  # 1m
+  
+  dm_check_duration: 60  # 1m
+
+github_actions:
+  run_interval: 5

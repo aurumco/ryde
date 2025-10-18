@@ -1,0 +1,6 @@
+discord.py-self
+pyyaml
+requests
+pytz
+aiohttp
+pynacl
