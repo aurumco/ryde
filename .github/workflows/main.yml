@@ -7,11 +7,12 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   monitor:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 10
 
     steps:
       - name: Checkout repository
@@ -54,8 +55,44 @@ jobs:
         run: |
           git config --global user.name "Ryde Monitor Bot"
           git config --global user.email "bot@ryde-monitor.local"
-          git add -f state.json ryde_monitor.log || true
+          git add -f state.json discord_monitor.log || true
           if ! git diff --cached --quiet 2>/dev/null; then
             git commit -m "chore: update state and logs [skip ci]" || true
             git push || true
           fi
+
+  cleanup:
+    name: Cleanup Old Runs
+    needs: monitor
+    if: always()
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      REPO: ${{ github.repository }}
+      WF: ${{ github.workflow }}
+    steps:
+      - name: Remove old workflow runs
+        run: |
+          runs=$(gh run list \
+            --repo "$REPO" \
+            --workflow "$WF" \
+            --limit 100 \
+            --json databaseId,status,createdAt \
+            --jq '.[] | select(.status!="in_progress" and .status!="queued") | {id: .databaseId, date: .createdAt}' | \
+            jq -s 'sort_by(.date) | reverse | .[].id')
+            
+          total=$(echo "$runs" | wc -l)
+          if [ "$total" -le 9 ]; then
+            echo "• Found $total runs, no cleanup needed (keeps latest 9)."
+            exit 0
+          fi
+          
+          to_delete=$(echo "$runs" | tail -n +10)
+          echo "• Deleting oldest workflow runs..."
+          echo "$to_delete" | while read id; do
+            echo "  - Deleting run ID: $id"
+            gh run delete "$id" --repo "$REPO" || true
+          done
+        shell: bash
