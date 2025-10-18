@@ -1,0 +1,86 @@
+name: Ryde Monitor
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: |
+            requirements.txt
+            **/requirements.txt
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          fi
+
+      - name: Restore previous state artifact (optional)
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: discord-state
+          path: .
+
+      - name: Run Discord monitor
+        env:
+          DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_ALLOWED_USER_IDS: ${{ vars.TELEGRAM_ALLOWED_USER_IDS }}
+          DISCORD_TRACKED_USERS: ${{ vars.DISCORD_TRACKED_USERS }}
+          DISCORD_TRACKED_GUILDS: ${{ vars.DISCORD_TRACKED_GUILDS }}
+          TIMEZONE: ${{ vars.TIMEZONE }}
+          VOICE_MONITORING_DURATION: ${{ vars.VOICE_MONITORING_DURATION }}
+          DM_CHECK_DURATION: ${{ vars.DM_CHECK_DURATION }}
+          DM_RECENT_WINDOW_SECONDS: ${{ vars.DM_RECENT_WINDOW_SECONDS }}
+          FIRST_RUN_STRATEGY: ${{ vars.FIRST_RUN_STRATEGY }}
+        run: |
+          python -u main.py || true
+
+      - name: Upload state
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: discord-state
+          path: state.json
+          retention-days: 90
+
+      - name: Upload logs
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: discord-logs-${{ github.run_id }}
+          path: discord_monitor.log
+          retention-days: 14
+
+      - name: Commit updated state.json back to repo (optional)
+        if: ${{ success() && github.event_name != 'pull_request' }}
+        run: |
+          if [ -f state.json ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add state.json
+            if ! git diff --cached --quiet; then
+              git commit -m "chore(state): update state.json [skip ci]"
+              git push
+            fi
+          fi
