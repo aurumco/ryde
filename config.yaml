@@ -11,9 +11,9 @@ monitoring:
   
   timezone: "Asia/Tehran"
   
-  voice_monitoring_duration: 30  # 30s
+  voice_monitoring_duration: 5  # 10s
   
-  dm_check_duration: 30  # 30s
+  dm_check_duration: 5  # 10s
 
 github_actions:
   run_interval: 5
