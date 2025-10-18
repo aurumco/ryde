@@ -1,0 +1,5 @@
+2025-10-19 02:19:35,055 - [32mINFO[0m - Configuration loaded successfully.
+2025-10-19 02:19:35,055 - [32mINFO[0m - State loaded successfully.
+2025-10-19 02:19:35,076 - [32mINFO[0m - Starting Discord monitor.
+2025-10-19 02:19:35,076 - [32mINFO[0m - Logging in using static token.
+2025-10-19 02:19:36,025 - [32mINFO[0m - Found user agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36, build number 459631.
