@@ -1,9 +1,9 @@
-# Discord → Telegram Monitor (Minimal)
+# Ryde: Discord To Telegram Monitor
 
 - DMs to your Discord are forwarded to Telegram.
 - Friend changes (status/profile/remove) are reported.
 - Voice activity for tracked users is reported (join/leave, who is with them).
-- Runs on GitHub Actions every 5 minutes. Extends runtime to 10 min when voice activity is detected.
+- Runs on GitHub Actions every 5 minutes.
 
 ## Quick Setup
 
@@ -13,23 +13,8 @@ python -m pip install -r requirements.txt
 ```
 
 2) Configure `config.yaml` (or use env in Actions)
-```yaml
-discord:
-  token: "<DISCORD_USER_TOKEN>"
-telegram:
-  bot_token: "<TELEGRAM_BOT_TOKEN>"
-  chat_id: "<TELEGRAM_CHAT_ID>"
-  allowed_user_ids: []
-monitoring:
-  tracked_users: []
-  timezone: "Asia/Tehran"
-  voice_monitoring_duration: 60
-  dm_check_duration: 60
-github_actions:
-  run_interval: 5
-```
 
-3) GitHub Actions secrets/vars
+3) Configure GitHub Actions secrets/vars
 - Secrets: `DISCORD_TOKEN`, `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`
 - Vars (optional): `TELEGRAM_ALLOWED_USER_IDS`, `DISCORD_TRACKED_USERS`, `TIMEZONE`, `VOICE_MONITORING_DURATION`, `DM_CHECK_DURATION`
 
@@ -79,7 +64,7 @@ Discord/
 │   ├── state_manager.py         # State persistence
 │   └── telegram_notifier.py     # Telegram notification service
 ├── main.py                      # Application entry point
-├── config.yaml                  # Configuration file (not in git)
+├── config.yaml                  # Configuration file
 ├── requirements.txt             # Python dependencies
 ├── .gitignore
 └── README.md
@@ -91,8 +76,8 @@ Discord/
 
 1. Clone the repository:
 ```bash
-git clone <https://github.com/aurumco/ryde.git>
-cd Discord
+git clone https://github.com/aurumco/ryde.git
+cd ryde
 ```
 
 2. Install dependencies:
