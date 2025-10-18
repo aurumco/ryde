@@ -33,13 +33,6 @@ jobs:
             pip install -r requirements.txt
           fi
 
-      - name: Restore previous state artifact (optional)
-        uses: actions/download-artifact@v4
-        continue-on-error: true
-        with:
-          name: discord-state
-          path: .
-
       - name: Run Discord monitor
         env:
           DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
@@ -56,31 +49,13 @@ jobs:
         run: |
           python -u main.py || true
 
-      - name: Upload state
-        uses: actions/upload-artifact@v4
+      - name: Commit state and logs to repository
         if: always()
-        with:
-          name: discord-state
-          path: state.json
-          retention-days: 90
-
-      - name: Upload logs
-        uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: discord-logs-${{ github.run_id }}
-          path: discord_monitor.log
-          retention-days: 14
-
-      - name: Commit updated state.json back to repo (optional)
-        if: ${{ success() && github.event_name != 'pull_request' }}
         run: |
-          if [ -f state.json ]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add state.json
-            if ! git diff --cached --quiet; then
-              git commit -m "chore(state): update state.json [skip ci]"
-              git push
-            fi
+          git config --global user.name "Ryde Monitor Bot"
+          git config --global user.email "bot@ryde-monitor.local"
+          git add -f state.json ryde_monitor.log || true
+          if ! git diff --cached --quiet 2>/dev/null; then
+            git commit -m "chore: update state and logs [skip ci]" || true
+            git push || true
           fi
