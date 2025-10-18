@@ -3,17 +3,17 @@ discord:
   
 telegram:
   bot_token: ""
-  chat_id: "6083322009"
-  allowed_user_ids: [6083322009]
+  chat_id: ""
+  allowed_user_ids: []
 
 monitoring:
-  tracked_users: [956212484283453551, 992943668161953873, 1198400306338336821, 901300740545450005]
+  tracked_users: [992943668161953873, 1198400306338336821, 956212484283453551]
   
   timezone: "Asia/Tehran"
   
-  voice_monitoring_duration: 60  # 1m
+  voice_monitoring_duration: 30  # 30s
   
-  dm_check_duration: 60  # 1m
+  dm_check_duration: 30  # 30s
 
 github_actions:
   run_interval: 5
