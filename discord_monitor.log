@@ -653,3 +653,19 @@
 2025-10-19 10:58:23,284 - [32mINFO[0m - Message sent to Telegram successfully.
 2025-10-19 10:58:23,288 - [32mINFO[0m - Monitoring voice channels for 10 seconds.
 2025-10-19 10:58:33,289 - [32mINFO[0m - State saved successfully.
+2025-10-19 11:15:15,966 - [32mINFO[0m - Configuration loaded successfully.
+2025-10-19 11:15:15,967 - [32mINFO[0m - State loaded successfully.
+2025-10-19 11:15:15,980 - [32mINFO[0m - Starting Discord monitor.
+2025-10-19 11:15:15,980 - [32mINFO[0m - Logging in using static token.
+2025-10-19 11:15:16,047 - [32mINFO[0m - Found user agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36, build number 459631.
+2025-10-19 11:15:17,337 - [32mINFO[0m - Connected to Gateway (Session ID: 6a25a78b1a8b64f618007598c072f9a7).
+2025-10-19 11:15:17,791 - [32mINFO[0m - Logged in as mozafari#0
+2025-10-19 11:15:17,791 - [32mINFO[0m - Discovered 38 guild(s).
+2025-10-19 11:15:17,791 - [32mINFO[0m - Checking DMs.
+2025-10-19 11:15:18,847 - [32mINFO[0m - Message sent to Telegram successfully.
+2025-10-19 11:15:20,191 - [32mINFO[0m - Checking friends.
+2025-10-19 11:15:20,191 - [32mINFO[0m - Discovered 25 friend(s).
+2025-10-19 11:15:20,192 - [32mINFO[0m - Checking voice channels.
+2025-10-19 11:15:20,637 - [32mINFO[0m - Message sent to Telegram successfully.
+2025-10-19 11:15:20,641 - [32mINFO[0m - Monitoring voice channels for 10 seconds.
+2025-10-19 11:15:30,642 - [32mINFO[0m - State saved successfully.
