@@ -1,17 +1,3 @@
-2025-10-25 22:43:49,566 - [32mINFO[0m - Configuration loaded successfully.
-2025-10-25 22:43:49,566 - [32mINFO[0m - State loaded successfully.
-2025-10-25 22:43:49,577 - [32mINFO[0m - Starting Discord monitor.
-2025-10-25 22:43:49,577 - [32mINFO[0m - Logging in using static token.
-2025-10-25 22:43:49,861 - [32mINFO[0m - Found user agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36, build number 459631.
-2025-10-25 22:43:51,750 - [32mINFO[0m - Connected to Gateway (Session ID: f57507f13164d4b3e1b146318144de45).
-2025-10-25 22:43:52,293 - [32mINFO[0m - Logged in as mozafari#0
-2025-10-25 22:43:52,293 - [32mINFO[0m - Discovered 39 guild(s).
-2025-10-25 22:43:52,293 - [32mINFO[0m - Checking DMs.
-2025-10-25 22:43:54,836 - [32mINFO[0m - Checking friends.
-2025-10-25 22:43:54,837 - [32mINFO[0m - Discovered 25 friend(s).
-2025-10-25 22:43:54,838 - [32mINFO[0m - Checking voice channels.
-2025-10-25 22:43:54,843 - [32mINFO[0m - Quick check completed, waiting 10 seconds.
-2025-10-25 22:44:04,845 - [32mINFO[0m - State saved successfully.
 2025-10-25 22:51:48,166 - [32mINFO[0m - Configuration loaded successfully.
 2025-10-25 22:51:48,167 - [32mINFO[0m - State loaded successfully.
 2025-10-25 22:51:48,178 - [32mINFO[0m - Starting Discord monitor.
@@ -1331,3 +1317,17 @@
 2025-10-26 22:38:45,372 - [32mINFO[0m - Checking voice channels.
 2025-10-26 22:38:45,378 - [32mINFO[0m - Quick check completed, waiting 10 seconds.
 2025-10-26 22:38:55,379 - [32mINFO[0m - State saved successfully.
+2025-10-26 22:46:51,951 - [32mINFO[0m - Configuration loaded successfully.
+2025-10-26 22:46:51,952 - [32mINFO[0m - State loaded successfully.
+2025-10-26 22:46:51,962 - [32mINFO[0m - Starting Discord monitor.
+2025-10-26 22:46:51,962 - [32mINFO[0m - Logging in using static token.
+2025-10-26 22:46:52,527 - [32mINFO[0m - Found user agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36, build number 459631.
+2025-10-26 22:46:54,095 - [32mINFO[0m - Connected to Gateway (Session ID: 7708d88c14686af692ff45eedb53fce8).
+2025-10-26 22:46:54,621 - [32mINFO[0m - Logged in as mozafari#0
+2025-10-26 22:46:54,621 - [32mINFO[0m - Discovered 39 guild(s).
+2025-10-26 22:46:54,621 - [32mINFO[0m - Checking DMs.
+2025-10-26 22:46:57,347 - [32mINFO[0m - Checking friends.
+2025-10-26 22:46:57,347 - [32mINFO[0m - Discovered 25 friend(s).
+2025-10-26 22:46:57,348 - [32mINFO[0m - Checking voice channels.
+2025-10-26 22:46:57,354 - [32mINFO[0m - Quick check completed, waiting 10 seconds.
+2025-10-26 22:47:07,355 - [32mINFO[0m - State saved successfully.
