@@ -1,17 +1,3 @@
-2025-10-27 19:35:55,964 - [32mINFO[0m - Configuration loaded successfully.
-2025-10-27 19:35:55,964 - [32mINFO[0m - State loaded successfully.
-2025-10-27 19:35:55,974 - [32mINFO[0m - Starting Discord monitor.
-2025-10-27 19:35:55,975 - [32mINFO[0m - Logging in using static token.
-2025-10-27 19:35:56,025 - [32mINFO[0m - Found user agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36, build number 459631.
-2025-10-27 19:35:57,280 - [32mINFO[0m - Connected to Gateway (Session ID: 20888bb8b16ef6fc4ad8167f64f5863d).
-2025-10-27 19:35:57,777 - [32mINFO[0m - Logged in as mozafari#0
-2025-10-27 19:35:57,777 - [32mINFO[0m - Discovered 39 guild(s).
-2025-10-27 19:35:57,777 - [32mINFO[0m - Checking DMs.
-2025-10-27 19:35:59,998 - [32mINFO[0m - Checking friends.
-2025-10-27 19:35:59,999 - [32mINFO[0m - Discovered 25 friend(s).
-2025-10-27 19:36:00,000 - [32mINFO[0m - Checking voice channels.
-2025-10-27 19:36:00,000 - [32mINFO[0m - Quick check completed, waiting 10 seconds.
-2025-10-27 19:36:10,001 - [32mINFO[0m - State saved successfully.
 2025-10-27 19:44:19,169 - [32mINFO[0m - Configuration loaded successfully.
 2025-10-27 19:44:19,169 - [32mINFO[0m - State loaded successfully.
 2025-10-27 19:44:19,179 - [32mINFO[0m - Starting Discord monitor.
@@ -1128,3 +1114,17 @@ discord.errors.DiscordServerError: 503 Service Unavailable (error code: 0): upst
 2025-10-28 19:30:21,669 - [32mINFO[0m - Checking voice channels.
 2025-10-28 19:30:21,669 - [32mINFO[0m - Quick check completed, waiting 10 seconds.
 2025-10-28 19:30:31,670 - [32mINFO[0m - State saved successfully.
+2025-10-28 19:40:41,090 - [32mINFO[0m - Configuration loaded successfully.
+2025-10-28 19:40:41,090 - [32mINFO[0m - State loaded successfully.
+2025-10-28 19:40:41,101 - [32mINFO[0m - Starting Discord monitor.
+2025-10-28 19:40:41,101 - [32mINFO[0m - Logging in using static token.
+2025-10-28 19:40:41,164 - [32mINFO[0m - Found user agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36, build number 462316.
+2025-10-28 19:40:42,675 - [32mINFO[0m - Connected to Gateway (Session ID: 5f5e9a77cdc0633a92c19208b8f2178b).
+2025-10-28 19:40:43,205 - [32mINFO[0m - Logged in as mozafari#0
+2025-10-28 19:40:43,205 - [32mINFO[0m - Discovered 38 guild(s).
+2025-10-28 19:40:43,205 - [32mINFO[0m - Checking DMs.
+2025-10-28 19:40:45,344 - [32mINFO[0m - Checking friends.
+2025-10-28 19:40:45,344 - [32mINFO[0m - Discovered 25 friend(s).
+2025-10-28 19:40:45,345 - [32mINFO[0m - Checking voice channels.
+2025-10-28 19:40:45,346 - [32mINFO[0m - Quick check completed, waiting 10 seconds.
+2025-10-28 19:40:55,347 - [32mINFO[0m - State saved successfully.
