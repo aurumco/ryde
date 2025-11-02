@@ -12,33 +12,6 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/discord/http.py", line 834, in request
     raise DiscordServerError(response, data)
 discord.errors.DiscordServerError: 503 Service Unavailable (error code: 0): upstream connect error or disconnect/reset before headers. reset reason: overflow
-2025-11-01 05:31:21,302 - [32mINFO[0m - Configuration loaded successfully.
-2025-11-01 05:31:21,302 - [32mINFO[0m - State loaded successfully.
-2025-11-01 05:31:21,313 - [32mINFO[0m - Starting Discord monitor.
-2025-11-01 05:31:21,313 - [32mINFO[0m - Logging in using static token.
-2025-11-01 05:31:21,415 - [32mINFO[0m - Found user agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36, build number 463311.
-2025-11-01 05:31:23,791 - [32mINFO[0m - Connected to Gateway (Session ID: f4e495783b946dacdf8b4aa59c7fb9fc).
-2025-11-01 05:31:24,269 - [32mINFO[0m - Logged in as mozafari#0
-2025-11-01 05:31:24,269 - [32mINFO[0m - Discovered 36 guild(s).
-2025-11-01 05:31:24,269 - [32mINFO[0m - Checking DMs.
-2025-11-01 05:31:26,314 - [32mINFO[0m - Checking friends.
-2025-11-01 05:31:26,314 - [32mINFO[0m - Discovered 25 friend(s).
-2025-11-01 05:31:26,315 - [32mINFO[0m - Checking voice channels.
-2025-11-01 05:31:26,315 - [32mINFO[0m - Quick check completed, waiting 10 seconds.
-2025-11-01 05:31:36,318 - [32mINFO[0m - State saved successfully.
-2025-11-01 05:42:55,809 - [32mINFO[0m - Configuration loaded successfully.
-2025-11-01 05:42:55,809 - [32mINFO[0m - State loaded successfully.
-2025-11-01 05:42:55,820 - [32mINFO[0m - Starting Discord monitor.
-2025-11-01 05:42:55,820 - [32mINFO[0m - Logging in using static token.
-2025-11-01 05:42:55,938 - [32mINFO[0m - Found user agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36, build number 463311.
-2025-11-01 05:42:57,159 - [32mINFO[0m - Connected to Gateway (Session ID: c47bfaadb61edf266aac326cde239731).
-2025-11-01 05:42:57,673 - [32mINFO[0m - Logged in as mozafari#0
-2025-11-01 05:42:57,673 - [32mINFO[0m - Discovered 36 guild(s).
-2025-11-01 05:42:57,674 - [32mINFO[0m - Checking DMs.
-2025-11-01 05:42:59,992 - [32mINFO[0m - Checking friends.
-2025-11-01 05:42:59,993 - [32mINFO[0m - Discovered 25 friend(s).
-2025-11-01 05:42:59,994 - [32mINFO[0m - Checking voice channels.
-2025-11-01 05:42:59,994 - [32mINFO[0m - Quick check completed, waiting 10 seconds.
 2025-11-01 05:43:09,996 - [32mINFO[0m - State saved successfully.
 2025-11-01 05:51:30,836 - [32mINFO[0m - Configuration loaded successfully.
 2025-11-01 05:51:30,836 - [32mINFO[0m - State loaded successfully.
@@ -1365,3 +1338,17 @@ discord.errors.DiscordServerError: 503 Service Unavailable (error code: 0): upst
 2025-11-02 05:31:15,389 - [32mINFO[0m - Checking voice channels.
 2025-11-02 05:31:15,390 - [32mINFO[0m - Quick check completed, waiting 10 seconds.
 2025-11-02 05:31:25,391 - [32mINFO[0m - State saved successfully.
+2025-11-02 05:43:04,548 - [32mINFO[0m - Configuration loaded successfully.
+2025-11-02 05:43:04,548 - [32mINFO[0m - State loaded successfully.
+2025-11-02 05:43:04,559 - [32mINFO[0m - Starting Discord monitor.
+2025-11-02 05:43:04,559 - [32mINFO[0m - Logging in using static token.
+2025-11-02 05:43:04,643 - [32mINFO[0m - Found user agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36, build number 463311.
+2025-11-02 05:43:05,988 - [32mINFO[0m - Connected to Gateway (Session ID: 4aaa18857b87764b6278e116bd0df006).
+2025-11-02 05:43:06,515 - [32mINFO[0m - Logged in as mozafari#0
+2025-11-02 05:43:06,515 - [32mINFO[0m - Discovered 36 guild(s).
+2025-11-02 05:43:06,515 - [32mINFO[0m - Checking DMs.
+2025-11-02 05:43:08,517 - [32mINFO[0m - Checking friends.
+2025-11-02 05:43:08,517 - [32mINFO[0m - Discovered 25 friend(s).
+2025-11-02 05:43:08,518 - [32mINFO[0m - Checking voice channels.
+2025-11-02 05:43:08,518 - [32mINFO[0m - Quick check completed, waiting 10 seconds.
+2025-11-02 05:43:18,520 - [32mINFO[0m - State saved successfully.
