@@ -12,20 +12,6 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/discord/http.py", line 834, in request
     raise DiscordServerError(response, data)
 discord.errors.DiscordServerError: 503 Service Unavailable (error code: 0): upstream connect error or disconnect/reset before headers. reset reason: overflow
-2025-11-08 11:30:53,825 - [32mINFO[0m - Configuration loaded successfully.
-2025-11-08 11:30:53,826 - [32mINFO[0m - State loaded successfully.
-2025-11-08 11:30:53,836 - [32mINFO[0m - Starting Discord monitor.
-2025-11-08 11:30:53,837 - [32mINFO[0m - Logging in using static token.
-2025-11-08 11:30:54,083 - [32mINFO[0m - Found user agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36, build number 466058.
-2025-11-08 11:30:55,760 - [32mINFO[0m - Connected to Gateway (Session ID: dc5bfd8b4dbcb8b756c64bd5924beb9c).
-2025-11-08 11:30:56,323 - [32mINFO[0m - Logged in as mozafari#0
-2025-11-08 11:30:56,323 - [32mINFO[0m - Discovered 36 guild(s).
-2025-11-08 11:30:56,323 - [32mINFO[0m - Checking DMs.
-2025-11-08 11:30:59,414 - [32mINFO[0m - Checking friends.
-2025-11-08 11:30:59,414 - [32mINFO[0m - Discovered 26 friend(s).
-2025-11-08 11:30:59,415 - [32mINFO[0m - Checking voice channels.
-2025-11-08 11:30:59,415 - [32mINFO[0m - Quick check completed, waiting 10 seconds.
-2025-11-08 11:31:09,417 - [32mINFO[0m - State saved successfully.
 2025-11-08 11:40:21,146 - [32mINFO[0m - Configuration loaded successfully.
 2025-11-08 11:40:21,146 - [32mINFO[0m - State loaded successfully.
 2025-11-08 11:40:21,157 - [32mINFO[0m - Starting Discord monitor.
@@ -1363,3 +1349,17 @@ discord.errors.DiscordServerError: 503 Service Unavailable (error code: 0): upst
 2025-11-09 11:27:53,029 - [32mINFO[0m - Checking voice channels.
 2025-11-09 11:27:53,029 - [32mINFO[0m - Quick check completed, waiting 10 seconds.
 2025-11-09 11:28:03,031 - [32mINFO[0m - State saved successfully.
+2025-11-09 11:37:32,715 - [32mINFO[0m - Configuration loaded successfully.
+2025-11-09 11:37:32,715 - [32mINFO[0m - State loaded successfully.
+2025-11-09 11:37:32,726 - [32mINFO[0m - Starting Discord monitor.
+2025-11-09 11:37:32,726 - [32mINFO[0m - Logging in using static token.
+2025-11-09 11:37:32,921 - [32mINFO[0m - Found user agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36, build number 466058.
+2025-11-09 11:37:35,068 - [32mINFO[0m - Connected to Gateway (Session ID: 1f5e03d97f4c755d3d835d8a08d9fadd).
+2025-11-09 11:37:35,599 - [32mINFO[0m - Logged in as mozafari#0
+2025-11-09 11:37:35,599 - [32mINFO[0m - Discovered 36 guild(s).
+2025-11-09 11:37:35,599 - [32mINFO[0m - Checking DMs.
+2025-11-09 11:37:38,720 - [32mINFO[0m - Checking friends.
+2025-11-09 11:37:38,720 - [32mINFO[0m - Discovered 26 friend(s).
+2025-11-09 11:37:38,721 - [32mINFO[0m - Checking voice channels.
+2025-11-09 11:37:38,721 - [32mINFO[0m - Quick check completed, waiting 10 seconds.
+2025-11-09 11:37:48,723 - [32mINFO[0m - State saved successfully.
