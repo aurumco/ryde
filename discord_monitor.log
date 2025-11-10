@@ -12,33 +12,6 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.13/x64/lib/python3.11/site-packages/discord/http.py", line 834, in request
     raise DiscordServerError(response, data)
 discord.errors.DiscordServerError: 503 Service Unavailable (error code: 0): upstream connect error or disconnect/reset before headers. reset reason: overflow
-2025-11-09 20:21:42,175 - [32mINFO[0m - Connected to Gateway (Session ID: 182e551f3fa7a6b33c067a9b0daf4e2c).
-2025-11-09 20:21:42,716 - [32mINFO[0m - Logged in as mozafari#0
-2025-11-09 20:21:42,716 - [32mINFO[0m - Discovered 36 guild(s).
-2025-11-09 20:21:42,716 - [32mINFO[0m - Checking DMs.
-2025-11-09 20:21:47,652 - [32mINFO[0m - Checking friends.
-2025-11-09 20:21:47,652 - [32mINFO[0m - Discovered 26 friend(s).
-2025-11-09 20:21:47,653 - [32mINFO[0m - Checking voice channels.
-2025-11-09 20:21:47,653 - [32mINFO[0m - Quick check completed, waiting 10 seconds.
-2025-11-09 20:21:57,654 - [32mINFO[0m - State saved successfully.
-2025-11-09 20:34:26,691 - [32mINFO[0m - Configuration loaded successfully.
-2025-11-09 20:34:26,691 - [32mINFO[0m - State loaded successfully.
-2025-11-09 20:34:26,701 - [32mINFO[0m - Starting Discord monitor.
-2025-11-09 20:34:26,702 - [32mINFO[0m - Logging in using static token.
-2025-11-09 20:34:26,794 - [32mINFO[0m - Found user agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36, build number 466058.
-2025-11-09 20:34:28,748 - [32mINFO[0m - Connected to Gateway (Session ID: a984a4e5b85d9e2c67f0056cd0d0402c).
-2025-11-09 20:34:29,286 - [32mINFO[0m - Logged in as mozafari#0
-2025-11-09 20:34:29,286 - [32mINFO[0m - Discovered 36 guild(s).
-2025-11-09 20:34:29,286 - [32mINFO[0m - Checking DMs.
-2025-11-09 20:34:32,296 - [32mINFO[0m - Checking friends.
-2025-11-09 20:34:32,297 - [32mINFO[0m - Discovered 26 friend(s).
-2025-11-09 20:34:33,129 - [32mINFO[0m - Photo sent to Telegram successfully.
-2025-11-09 20:34:33,132 - [32mINFO[0m - Sending daily Statistics summary
-2025-11-09 20:34:33,464 - [32mINFO[0m - Message sent to Telegram successfully.
-2025-11-09 20:34:33,466 - [32mINFO[0m - Daily Statistics summary sent
-2025-11-09 20:34:33,466 - [32mINFO[0m - Checking voice channels.
-2025-11-09 20:34:33,466 - [32mINFO[0m - Quick check completed, waiting 10 seconds.
-2025-11-09 20:34:43,467 - [32mINFO[0m - State saved successfully.
 2025-11-09 20:43:34,988 - [32mINFO[0m - Configuration loaded successfully.
 2025-11-09 20:43:34,988 - [32mINFO[0m - State loaded successfully.
 2025-11-09 20:43:35,000 - [32mINFO[0m - Starting Discord monitor.
@@ -1120,3 +1093,20 @@ discord.errors.DiscordServerError: 503 Service Unavailable (error code: 0): upst
 2025-11-10 20:21:45,117 - [32mINFO[0m - Checking voice channels.
 2025-11-10 20:21:45,117 - [32mINFO[0m - Quick check completed, waiting 10 seconds.
 2025-11-10 20:21:55,118 - [32mINFO[0m - State saved successfully.
+2025-11-10 20:40:32,459 - [32mINFO[0m - Configuration loaded successfully.
+2025-11-10 20:40:32,459 - [32mINFO[0m - State loaded successfully.
+2025-11-10 20:40:32,470 - [32mINFO[0m - Starting Discord monitor.
+2025-11-10 20:40:32,470 - [32mINFO[0m - Logging in using static token.
+2025-11-10 20:40:32,566 - [32mINFO[0m - Found user agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36, build number 466366.
+2025-11-10 20:40:35,436 - [32mINFO[0m - Connected to Gateway (Session ID: b547a6422d1728b6754f14f49c0d2220).
+2025-11-10 20:40:36,031 - [32mINFO[0m - Logged in as mozafari#0
+2025-11-10 20:40:36,031 - [32mINFO[0m - Discovered 36 guild(s).
+2025-11-10 20:40:36,031 - [32mINFO[0m - Checking DMs.
+2025-11-10 20:40:39,633 - [32mINFO[0m - Checking friends.
+2025-11-10 20:40:39,633 - [32mINFO[0m - Discovered 26 friend(s).
+2025-11-10 20:40:39,635 - [32mINFO[0m - Sending daily Statistics summary
+2025-11-10 20:40:40,219 - [32mINFO[0m - Message sent to Telegram successfully.
+2025-11-10 20:40:40,221 - [32mINFO[0m - Daily Statistics summary sent
+2025-11-10 20:40:40,221 - [32mINFO[0m - Checking voice channels.
+2025-11-10 20:40:40,221 - [32mINFO[0m - Quick check completed, waiting 10 seconds.
+2025-11-10 20:40:50,223 - [32mINFO[0m - State saved successfully.
