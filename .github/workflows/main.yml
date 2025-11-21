@@ -2,7 +2,7 @@ name: Ryde Monitor
 
 on:
   schedule:
-    - cron: '*/300 * * * *'
+    - cron: '*/60 * * * *'
   workflow_dispatch:
 
 permissions:
