@@ -1,37 +1,4 @@
 
-2025-11-24 21:08:51,705 - [32mINFO[0m - Configuration loaded successfully.
-2025-11-24 21:08:51,706 - [32mINFO[0m - State loaded successfully.
-2025-11-24 21:08:51,716 - [32mINFO[0m - Starting Discord monitor.
-2025-11-24 21:08:51,716 - [32mINFO[0m - Logging in using static token.
-2025-11-24 21:08:51,849 - [32mINFO[0m - Found user agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36, build number 471979.
-2025-11-24 21:08:53,147 - [32mINFO[0m - Connected to Gateway (Session ID: 1161154a4a550ddc440758bac05c2243).
-2025-11-24 21:08:53,876 - [32mINFO[0m - Logged in as mozafari#0
-2025-11-24 21:08:53,876 - [32mINFO[0m - Discovered 40 guild(s).
-2025-11-24 21:08:53,876 - [32mINFO[0m - Checking DMs.
-2025-11-24 21:08:58,675 - [32mINFO[0m - Checking friends.
-2025-11-24 21:08:58,675 - [32mINFO[0m - Discovered 27 friend(s).
-2025-11-24 21:08:59,492 - [32mINFO[0m - Photo sent to Telegram successfully.
-2025-11-24 21:09:00,364 - [32mINFO[0m - Photo sent to Telegram successfully.
-2025-11-24 21:09:00,367 - [32mINFO[0m - Sending daily Statistics summary
-2025-11-24 21:09:00,717 - [32mINFO[0m - Message sent to Telegram successfully.
-2025-11-24 21:09:00,718 - [32mINFO[0m - Daily Statistics summary sent
-2025-11-24 21:09:00,718 - [32mINFO[0m - Checking voice channels.
-2025-11-24 21:09:00,718 - [32mINFO[0m - Quick check completed, waiting 10 seconds.
-2025-11-24 21:09:10,719 - [32mINFO[0m - State saved successfully.
-2025-11-24 22:07:51,942 - [32mINFO[0m - Configuration loaded successfully.
-2025-11-24 22:07:51,942 - [32mINFO[0m - State loaded successfully.
-2025-11-24 22:07:51,952 - [32mINFO[0m - Starting Discord monitor.
-2025-11-24 22:07:51,952 - [32mINFO[0m - Logging in using static token.
-2025-11-24 22:07:52,083 - [32mINFO[0m - Found user agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36, build number 472214.
-2025-11-24 22:07:54,762 - [32mINFO[0m - Connected to Gateway (Session ID: 180ffffce84e5c597eef05ecd68633ba).
-2025-11-24 22:07:55,388 - [32mINFO[0m - Logged in as mozafari#0
-2025-11-24 22:07:55,388 - [32mINFO[0m - Discovered 40 guild(s).
-2025-11-24 22:07:55,388 - [32mINFO[0m - Checking DMs.
-2025-11-24 22:08:00,323 - [32mINFO[0m - Checking friends.
-2025-11-24 22:08:00,323 - [32mINFO[0m - Discovered 27 friend(s).
-2025-11-24 22:08:00,324 - [32mINFO[0m - Checking voice channels.
-2025-11-24 22:08:00,324 - [32mINFO[0m - Quick check completed, waiting 10 seconds.
-2025-11-24 22:08:10,326 - [32mINFO[0m - State saved successfully.
 2025-11-24 23:09:02,542 - [32mINFO[0m - Configuration loaded successfully.
 2025-11-24 23:09:02,542 - [32mINFO[0m - State loaded successfully.
 2025-11-24 23:09:02,553 - [32mINFO[0m - Starting Discord monitor.
@@ -349,3 +316,17 @@
 2025-11-25 21:08:46,686 - [32mINFO[0m - Checking voice channels.
 2025-11-25 21:08:46,686 - [32mINFO[0m - Quick check completed, waiting 10 seconds.
 2025-11-25 21:08:56,687 - [32mINFO[0m - State saved successfully.
+2025-11-25 22:09:24,926 - [32mINFO[0m - Configuration loaded successfully.
+2025-11-25 22:09:24,926 - [32mINFO[0m - State loaded successfully.
+2025-11-25 22:09:24,937 - [32mINFO[0m - Starting Discord monitor.
+2025-11-25 22:09:24,937 - [32mINFO[0m - Logging in using static token.
+2025-11-25 22:09:25,001 - [32mINFO[0m - Found user agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36, build number 472588.
+2025-11-25 22:09:27,212 - [32mINFO[0m - Connected to Gateway (Session ID: c6067cdf0a08d4d7f7823efcc95c1a2e).
+2025-11-25 22:09:27,810 - [32mINFO[0m - Logged in as mozafari#0
+2025-11-25 22:09:27,811 - [32mINFO[0m - Discovered 39 guild(s).
+2025-11-25 22:09:27,811 - [32mINFO[0m - Checking DMs.
+2025-11-25 22:09:32,674 - [32mINFO[0m - Checking friends.
+2025-11-25 22:09:32,674 - [32mINFO[0m - Discovered 27 friend(s).
+2025-11-25 22:09:32,675 - [32mINFO[0m - Checking voice channels.
+2025-11-25 22:09:32,675 - [32mINFO[0m - Quick check completed, waiting 10 seconds.
+2025-11-25 22:09:42,676 - [32mINFO[0m - State saved successfully.
