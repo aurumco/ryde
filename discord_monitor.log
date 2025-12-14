@@ -13,35 +13,6 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/discord/http.py", line 834, in request
     raise DiscordServerError(response, data)
 discord.errors.DiscordServerError: 503 Service Unavailable (error code: 0): upstream connect error or disconnect/reset before headers. reset reason: overflow
-2025-12-12 23:09:42,596 - [32mINFO[0m - Configuration loaded successfully.
-2025-12-12 23:09:42,597 - [32mINFO[0m - State loaded successfully.
-2025-12-12 23:09:42,607 - [32mINFO[0m - Starting Discord monitor.
-2025-12-12 23:09:42,607 - [32mINFO[0m - Logging in using static token.
-2025-12-12 23:09:42,748 - [32mINFO[0m - Found user agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36, build number 479219.
-2025-12-12 23:09:44,791 - [32mINFO[0m - Connected to Gateway (Session ID: 4d46fe323aeb31244b6bd9d5d3626640).
-2025-12-12 23:09:45,725 - [32mINFO[0m - Logged in as mozafari#0
-2025-12-12 23:09:45,725 - [32mINFO[0m - Discovered 44 guild(s).
-2025-12-12 23:09:45,725 - [32mINFO[0m - Checking DMs.
-2025-12-12 23:09:51,212 - [32mINFO[0m - Checking friends.
-2025-12-12 23:09:51,212 - [32mINFO[0m - Discovered 24 friend(s).
-2025-12-12 23:09:52,112 - [32mINFO[0m - Photo sent to Telegram successfully.
-2025-12-12 23:09:52,115 - [32mINFO[0m - Checking voice channels.
-2025-12-12 23:09:52,115 - [32mINFO[0m - Quick check completed, waiting 10 seconds.
-2025-12-12 23:10:02,116 - [32mINFO[0m - State saved successfully.
-2025-12-13 00:43:33,682 - [32mINFO[0m - Configuration loaded successfully.
-2025-12-13 00:43:33,682 - [32mINFO[0m - State loaded successfully.
-2025-12-13 00:43:33,692 - [32mINFO[0m - Starting Discord monitor.
-2025-12-13 00:43:33,692 - [32mINFO[0m - Logging in using static token.
-2025-12-13 00:43:33,899 - [32mINFO[0m - Found user agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36, build number 479793.
-2025-12-13 00:43:35,452 - [32mINFO[0m - Connected to Gateway (Session ID: d585af8a3b702ce8eff2e5bd1cccfe4d).
-2025-12-13 00:43:36,354 - [32mINFO[0m - Logged in as mozafari#0
-2025-12-13 00:43:36,355 - [32mINFO[0m - Discovered 44 guild(s).
-2025-12-13 00:43:36,355 - [32mINFO[0m - Checking DMs.
-2025-12-13 00:43:42,091 - [32mINFO[0m - Checking friends.
-2025-12-13 00:43:42,091 - [32mINFO[0m - Discovered 24 friend(s).
-2025-12-13 00:43:42,092 - [32mINFO[0m - Checking voice channels.
-2025-12-13 00:43:42,092 - [32mINFO[0m - Quick check completed, waiting 10 seconds.
-2025-12-13 00:43:52,093 - [32mINFO[0m - State saved successfully.
 2025-12-13 02:26:14,585 - [32mINFO[0m - Configuration loaded successfully.
 2025-12-13 02:26:14,585 - [32mINFO[0m - State loaded successfully.
 2025-12-13 02:26:14,597 - [32mINFO[0m - Starting Discord monitor.
@@ -357,3 +328,17 @@ discord.errors.DiscordServerError: 503 Service Unavailable (error code: 0): upst
 2025-12-13 23:09:17,752 - [32mINFO[0m - Checking voice channels.
 2025-12-13 23:09:17,752 - [32mINFO[0m - Quick check completed, waiting 10 seconds.
 2025-12-13 23:09:27,754 - [32mINFO[0m - State saved successfully.
+2025-12-14 00:51:40,340 - [32mINFO[0m - Configuration loaded successfully.
+2025-12-14 00:51:40,340 - [32mINFO[0m - State loaded successfully.
+2025-12-14 00:51:40,351 - [32mINFO[0m - Starting Discord monitor.
+2025-12-14 00:51:40,351 - [32mINFO[0m - Logging in using static token.
+2025-12-14 00:51:40,555 - [32mINFO[0m - Found user agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36, build number 479793.
+2025-12-14 00:51:43,480 - [32mINFO[0m - Connected to Gateway (Session ID: 8f47175208abba1333df1a9883ce95ee).
+2025-12-14 00:51:44,466 - [32mINFO[0m - Logged in as mozafari#0
+2025-12-14 00:51:44,467 - [32mINFO[0m - Discovered 45 guild(s).
+2025-12-14 00:51:44,467 - [32mINFO[0m - Checking DMs.
+2025-12-14 00:51:49,711 - [32mINFO[0m - Checking friends.
+2025-12-14 00:51:49,711 - [32mINFO[0m - Discovered 24 friend(s).
+2025-12-14 00:51:49,712 - [32mINFO[0m - Checking voice channels.
+2025-12-14 00:51:49,712 - [32mINFO[0m - Quick check completed, waiting 10 seconds.
+2025-12-14 00:51:59,714 - [32mINFO[0m - State saved successfully.
