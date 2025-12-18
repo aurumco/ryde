@@ -13,7 +13,6 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/discord/http.py", line 834, in request
     raise DiscordServerError(response, data)
 discord.errors.DiscordServerError: 503 Service Unavailable (error code: 0): upstream connect error or disconnect/reset before headers. reset reason: overflow
-2025-12-16 23:09:38,143 - [32mINFO[0m - State saved successfully.
 2025-12-17 00:43:24,572 - [32mINFO[0m - Configuration loaded successfully.
 2025-12-17 00:43:24,573 - [32mINFO[0m - State loaded successfully.
 2025-12-17 00:43:24,580 - [32mINFO[0m - Starting Discord monitor.
@@ -340,3 +339,17 @@ discord.errors.DiscordServerError: 503 Service Unavailable (error code: 0): upst
 2025-12-17 23:09:40,563 - [32mINFO[0m - Checking voice channels.
 2025-12-17 23:09:40,563 - [32mINFO[0m - Quick check completed, waiting 10 seconds.
 2025-12-17 23:09:50,564 - [32mINFO[0m - State saved successfully.
+2025-12-18 00:42:58,212 - [32mINFO[0m - Configuration loaded successfully.
+2025-12-18 00:42:58,212 - [32mINFO[0m - State loaded successfully.
+2025-12-18 00:42:58,220 - [32mINFO[0m - Starting Discord monitor.
+2025-12-18 00:42:58,220 - [32mINFO[0m - Logging in using static token.
+2025-12-18 00:42:58,397 - [32mINFO[0m - Found user agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36, build number 481287.
+2025-12-18 00:43:01,409 - [32mINFO[0m - Connected to Gateway (Session ID: e3df8197da761bbdd91a5767b55e7c17).
+2025-12-18 00:43:02,262 - [32mINFO[0m - Logged in as mozafari#0
+2025-12-18 00:43:02,262 - [32mINFO[0m - Discovered 45 guild(s).
+2025-12-18 00:43:02,262 - [32mINFO[0m - Checking DMs.
+2025-12-18 00:43:09,472 - [32mINFO[0m - Checking friends.
+2025-12-18 00:43:09,472 - [32mINFO[0m - Discovered 24 friend(s).
+2025-12-18 00:43:09,472 - [32mINFO[0m - Checking voice channels.
+2025-12-18 00:43:09,472 - [32mINFO[0m - Quick check completed, waiting 10 seconds.
+2025-12-18 00:43:19,474 - [32mINFO[0m - State saved successfully.
