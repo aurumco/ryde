@@ -353,3 +353,17 @@ discord.errors.Forbidden: 403 Forbidden (error code: 0): <!DOCTYPE html><html la
 2025-12-30 04:29:55,561 - [32mINFO[0m - Checking voice channels.
 2025-12-30 04:29:55,561 - [32mINFO[0m - Quick check completed, waiting 10 seconds.
 2025-12-30 04:30:05,563 - [32mINFO[0m - State saved successfully.
+2025-12-30 05:14:51,286 - [32mINFO[0m - Configuration loaded successfully.
+2025-12-30 05:14:51,286 - [32mINFO[0m - State loaded successfully.
+2025-12-30 05:14:51,297 - [32mINFO[0m - Starting Discord monitor.
+2025-12-30 05:14:51,297 - [32mINFO[0m - Logging in using static token.
+2025-12-30 05:14:51,548 - [32mINFO[0m - Found user agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36, build number 482285.
+2025-12-30 05:14:53,493 - [32mINFO[0m - Connected to Gateway (Session ID: af05be79242f8ed240e00a6c9b4efeba).
+2025-12-30 05:14:54,214 - [32mINFO[0m - Logged in as mozafari#0
+2025-12-30 05:14:54,214 - [32mINFO[0m - Discovered 43 guild(s).
+2025-12-30 05:14:54,214 - [32mINFO[0m - Checking DMs.
+2025-12-30 05:14:58,935 - [32mINFO[0m - Checking friends.
+2025-12-30 05:14:58,935 - [32mINFO[0m - Discovered 23 friend(s).
+2025-12-30 05:14:58,936 - [32mINFO[0m - Checking voice channels.
+2025-12-30 05:14:58,936 - [32mINFO[0m - Quick check completed, waiting 10 seconds.
+2025-12-30 05:15:08,937 - [32mINFO[0m - State saved successfully.
