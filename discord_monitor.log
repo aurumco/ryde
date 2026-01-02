@@ -27,20 +27,6 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/discord/http.py", line 830, in request
     raise Forbidden(response, data)
 discord.errors.Forbidden: 403 Forbidden (error code: 0): <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}.h2{line-height:2.25rem;font-size:1.5rem;font-weight:500}@media (width <= 720px){.h2{line-height:1.5rem;font-size:1.25rem}}#challenge-error-text{background-image:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+");background-repeat:no-repeat;background-size:contain;padding-left:34px}@media (prefers-color-scheme: dark){body{background-color:#222;color:#d9d9d9}}</style><meta http-equiv="refresh" content="360"></head><body><div class="main-wrapper" role="main"><div class="main-content"><noscript><div class="h2"><span id="challenge-error-text">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script>(function(){window._cf_chl_opt = {cvId: '3',cZone: 'discord.com',cType: 'managed',cRay: '9b0daca82e0f41ce',cH: 'PXiNx5jtCiBqgpLmo15dCFYHXbbKxrXNcIik3H_98IU-1766218343-1.2.1.1-ZyWIJr85kgHxmR1qrwiVuJHQU7IOlouBpeW2SZt6teMgiTih0pSuMuSliyI9klZa',cUPMDTk:"\/api\/v9\/users\/@me?with_analytics_token=true&__cf_chl_tk=hBl0m4BuU2jgIWI6AP3i4aRQxMCGJPLoxelU4hVsf7Q-1766218343-1.0.1.1-.jM44Y4WZWr7Fkh_G2vjRigxKioM4vG4au1z.SFeKGU",cFPWv: 'g',cITimeS: '1766218343',cTplC:0,cTplV:5,cTplB: '0',fa:"\/api\/v9\/users\/@me?with_analytics_token=true&__cf_chl_f_tk=hBl0m4BuU2jgIWI6AP3i4aRQxMCGJPLoxelU4hVsf7Q-1766218343-1.0.1.1-.jM44Y4WZWr7Fkh_G2vjRigxKioM4vG4au1z.SFeKGU",md: 'wuzHoUBc_1eXv7W49o71x0uZioYNo1jd6Id8FK94nZk-1766218343-1.2.1.1-irwQjfsghb0gxXpt1A3ZnwEAN6Zi31UJMbScndCsJZOXJe9DjbdneSCocpa0LzdXzWXa4mnPS02B4BUHOkc.gk3BiqNMgEi5tfpTfK3vc5XDi7T9aNw3roC93w4O0EUkMVnkOmh1gZdjpv_27z4ldl0Bdm7qk_etBFBSWx51hm4Ez513Tvxcsih6ookoO5rfBSKQXzFKVDhgD67RHNGVZO4KMAVzEKD5DJKEOoeXz6Tujtl3DT5EBnHwuxi4qNUECwjCd1rA7VJW9YByPjgVsyApH_2qdUVzt9ydRkyF5dha.gTa8J1zCJnZGRVj9wDK_9bytYggK1SWku0g4yICKCnC4QbF587fpuu9nGXYRu1CBZSfgrz9UIea3kxdr3IqF4r35ILAKE5uhG6gSr.9c0RMoYN4dZWhIDO9FElaymarVrdwlVYWCynWNQPL.PLbVZW6ny7Ki3WP1Y5WeHGNml4ThWvskQAiYvvuwSxIF68y9cmQy3cJM8wOBkLmEUjgdHoRSkYS.cD4ecc2g_qdxdPivMTtiXaDiNyZe1Sd4A.rYo_OCBT_881t4xnntZrJakYUb.6iF5p7ORfSmCHhSCPUnfTQl75BznrZeBfgmYT3f.81yTRzOGGaQbqMt7.3w9WYJYbj4tBjVleGb5vy6wk8v5deRx00H4vLRoO44emPzy5_WCoLCwzWbXabXlMK8KAbUWeLfjAkedAeAep0GgtFtq0XPIwN7mTMLzfAQnUrvrK3YTisr8kylPgHm74nSHr_6qEH5IOFsjOyt8rnJ.ypyJVC5ydprnQphGVNQub4UkKi4yF.sr2xKKJizL0KEXo2axH__YzewyY_2hgEM0OT2dRfZlDBMSr8zKRJFKBtG7W9xPQmxysHGz0uEr8qx57OwUWO0GQN30Eob44xFJ7AvIzqaynqHmnILFUyCNjWhk1IbyYwauApwyH0xPjLOyqbOEYraDIZcmyQFF4CkYQKjgnqVV31dGDvbx.jBfU',mdrd: '',};var a = document.createElement('script');a.src = '/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=9b0daca82e0f41ce';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,"\/api\/v9\/users\/@me?with_analytics_token=true&__cf_chl_rt_tk=hBl0m4BuU2jgIWI6AP3i4aRQxMCGJPLoxelU4hVsf7Q-1766218343-1.0.1.1-.jM44Y4WZWr7Fkh_G2vjRigxKioM4vG4au1z.SFeKGU"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>
-2026-01-01 03:01:10,372 - [32mINFO[0m - Configuration loaded successfully.
-2026-01-01 03:01:10,372 - [32mINFO[0m - State loaded successfully.
-2026-01-01 03:01:10,383 - [32mINFO[0m - Starting Discord monitor.
-2026-01-01 03:01:10,383 - [32mINFO[0m - Logging in using static token.
-2026-01-01 03:01:10,510 - [32mINFO[0m - Found user agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36, build number 482285.
-2026-01-01 03:01:12,071 - [32mINFO[0m - Connected to Gateway (Session ID: a9c1aa313d1cd439f7057b807ab769fa).
-2026-01-01 03:01:12,719 - [32mINFO[0m - Logged in as mozafari#0
-2026-01-01 03:01:12,719 - [32mINFO[0m - Discovered 43 guild(s).
-2026-01-01 03:01:12,719 - [32mINFO[0m - Checking DMs.
-2026-01-01 03:01:16,706 - [32mINFO[0m - Checking friends.
-2026-01-01 03:01:16,706 - [32mINFO[0m - Discovered 23 friend(s).
-2026-01-01 03:01:16,707 - [32mINFO[0m - Checking voice channels.
-2026-01-01 03:01:16,707 - [32mINFO[0m - Quick check completed, waiting 10 seconds.
-2026-01-01 03:01:26,709 - [32mINFO[0m - State saved successfully.
 2026-01-01 04:38:53,199 - [32mINFO[0m - Configuration loaded successfully.
 2026-01-01 04:38:53,199 - [32mINFO[0m - State loaded successfully.
 2026-01-01 04:38:53,206 - [32mINFO[0m - Starting Discord monitor.
@@ -352,3 +338,17 @@ discord.errors.Forbidden: 403 Forbidden (error code: 0): <!DOCTYPE html><html la
 2026-01-02 02:51:52,145 - [32mINFO[0m - Checking voice channels.
 2026-01-02 02:51:52,145 - [32mINFO[0m - Quick check completed, waiting 10 seconds.
 2026-01-02 02:52:02,147 - [32mINFO[0m - State saved successfully.
+2026-01-02 03:58:15,041 - [32mINFO[0m - Configuration loaded successfully.
+2026-01-02 03:58:15,041 - [32mINFO[0m - State loaded successfully.
+2026-01-02 03:58:15,052 - [32mINFO[0m - Starting Discord monitor.
+2026-01-02 03:58:15,052 - [32mINFO[0m - Logging in using static token.
+2026-01-02 03:58:15,131 - [32mINFO[0m - Found user agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36, build number 482285.
+2026-01-02 03:58:16,719 - [32mINFO[0m - Connected to Gateway (Session ID: ecbc11efb63b6c394e66501d87c2636b).
+2026-01-02 03:58:17,309 - [32mINFO[0m - Logged in as mozafari#0
+2026-01-02 03:58:17,309 - [32mINFO[0m - Discovered 43 guild(s).
+2026-01-02 03:58:17,309 - [32mINFO[0m - Checking DMs.
+2026-01-02 03:58:23,097 - [32mINFO[0m - Checking friends.
+2026-01-02 03:58:23,098 - [32mINFO[0m - Discovered 23 friend(s).
+2026-01-02 03:58:23,098 - [32mINFO[0m - Checking voice channels.
+2026-01-02 03:58:23,099 - [32mINFO[0m - Quick check completed, waiting 10 seconds.
+2026-01-02 03:58:33,099 - [32mINFO[0m - State saved successfully.
