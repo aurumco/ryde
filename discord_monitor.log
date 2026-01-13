@@ -41,36 +41,6 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/site-packages/discord/http.py", line 834, in request
     raise DiscordServerError(response, data)
 discord.errors.DiscordServerError: 503 Service Unavailable (error code: 0): upstream connect error or disconnect/reset before headers. reset reason: connection termination
-2026-01-12 20:11:55,503 - [32mINFO[0m - Configuration loaded successfully.
-2026-01-12 20:11:55,503 - [32mINFO[0m - State loaded successfully.
-2026-01-12 20:11:55,514 - [32mINFO[0m - Starting Discord monitor.
-2026-01-12 20:11:55,514 - [32mINFO[0m - Logging in using static token.
-2026-01-12 20:11:55,756 - [32mINFO[0m - Found user agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36, build number 484664.
-2026-01-12 20:11:57,704 - [32mINFO[0m - Connected to Gateway (Session ID: 18717ba6da27a8b8258f7aeb0cee53b0).
-2026-01-12 20:11:58,559 - [32mINFO[0m - Logged in as mozafari#0
-2026-01-12 20:11:58,560 - [32mINFO[0m - Discovered 44 guild(s).
-2026-01-12 20:11:58,560 - [32mINFO[0m - Checking DMs.
-2026-01-12 20:12:04,264 - [32mINFO[0m - Checking friends.
-2026-01-12 20:12:04,265 - [32mINFO[0m - Discovered 23 friend(s).
-2026-01-12 20:12:04,265 - [32mINFO[0m - Checking voice channels.
-2026-01-12 20:12:04,265 - [32mINFO[0m - Quick check completed, waiting 10 seconds.
-2026-01-12 20:12:14,267 - [32mINFO[0m - State saved successfully.
-2026-01-12 21:09:52,429 - [32mINFO[0m - Configuration loaded successfully.
-2026-01-12 21:09:52,430 - [32mINFO[0m - State loaded successfully.
-2026-01-12 21:09:52,441 - [32mINFO[0m - Starting Discord monitor.
-2026-01-12 21:09:52,441 - [32mINFO[0m - Logging in using static token.
-2026-01-12 21:09:52,753 - [32mINFO[0m - Found user agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36, build number 484664.
-2026-01-12 21:09:56,067 - [32mINFO[0m - Connected to Gateway (Session ID: 35c547090927d734053cb336288a50f5).
-2026-01-12 21:09:56,766 - [32mINFO[0m - Logged in as mozafari#0
-2026-01-12 21:09:56,766 - [32mINFO[0m - Discovered 44 guild(s).
-2026-01-12 21:09:56,766 - [32mINFO[0m - Checking DMs.
-2026-01-12 21:10:01,612 - [32mINFO[0m - Checking friends.
-2026-01-12 21:10:01,613 - [32mINFO[0m - Discovered 23 friend(s).
-2026-01-12 21:10:01,613 - [32mINFO[0m - Sending daily Statistics summary
-2026-01-12 21:10:02,092 - [32mINFO[0m - Message sent to Telegram successfully.
-2026-01-12 21:10:02,093 - [32mINFO[0m - Daily Statistics summary sent
-2026-01-12 21:10:02,093 - [32mINFO[0m - Checking voice channels.
-2026-01-12 21:10:02,093 - [32mINFO[0m - Quick check completed, waiting 10 seconds.
 2026-01-12 21:10:12,095 - [32mINFO[0m - State saved successfully.
 2026-01-12 22:09:40,905 - [32mINFO[0m - Configuration loaded successfully.
 2026-01-12 22:09:40,905 - [32mINFO[0m - State loaded successfully.
@@ -380,3 +350,20 @@ discord.errors.DiscordServerError: 503 Service Unavailable (error code: 0): upst
 2026-01-13 20:11:48,680 - [32mINFO[0m - Checking voice channels.
 2026-01-13 20:11:48,680 - [32mINFO[0m - Quick check completed, waiting 10 seconds.
 2026-01-13 20:11:58,681 - [32mINFO[0m - State saved successfully.
+2026-01-13 21:10:03,743 - [32mINFO[0m - Configuration loaded successfully.
+2026-01-13 21:10:03,743 - [32mINFO[0m - State loaded successfully.
+2026-01-13 21:10:03,754 - [32mINFO[0m - Starting Discord monitor.
+2026-01-13 21:10:03,754 - [32mINFO[0m - Logging in using static token.
+2026-01-13 21:10:03,928 - [32mINFO[0m - Found user agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36, build number 485097.
+2026-01-13 21:10:05,582 - [32mINFO[0m - Connected to Gateway (Session ID: d214f60c2456aa225e70ceeb12c5afb2).
+2026-01-13 21:10:06,370 - [32mINFO[0m - Logged in as mozafari#0
+2026-01-13 21:10:06,370 - [32mINFO[0m - Discovered 44 guild(s).
+2026-01-13 21:10:06,370 - [32mINFO[0m - Checking DMs.
+2026-01-13 21:10:10,459 - [32mINFO[0m - Checking friends.
+2026-01-13 21:10:10,459 - [32mINFO[0m - Discovered 23 friend(s).
+2026-01-13 21:10:10,460 - [32mINFO[0m - Sending daily Statistics summary
+2026-01-13 21:10:11,029 - [32mINFO[0m - Message sent to Telegram successfully.
+2026-01-13 21:10:11,030 - [32mINFO[0m - Daily Statistics summary sent
+2026-01-13 21:10:11,030 - [32mINFO[0m - Checking voice channels.
+2026-01-13 21:10:11,031 - [32mINFO[0m - Quick check completed, waiting 10 seconds.
+2026-01-13 21:10:21,032 - [32mINFO[0m - State saved successfully.
