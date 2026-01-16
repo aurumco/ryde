@@ -366,3 +366,17 @@ discord.errors.DiscordServerError: 503 Service Unavailable (error code: 0): upst
 2026-01-16 02:52:54,686 - [32mINFO[0m - Checking voice channels.
 2026-01-16 02:52:54,686 - [32mINFO[0m - Quick check completed, waiting 10 seconds.
 2026-01-16 02:53:04,687 - [32mINFO[0m - State saved successfully.
+2026-01-16 03:56:45,646 - [32mINFO[0m - Configuration loaded successfully.
+2026-01-16 03:56:45,646 - [32mINFO[0m - State loaded successfully.
+2026-01-16 03:56:45,657 - [32mINFO[0m - Starting Discord monitor.
+2026-01-16 03:56:45,657 - [32mINFO[0m - Logging in using static token.
+2026-01-16 03:56:45,749 - [32mINFO[0m - Found user agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36, build number 486344.
+2026-01-16 03:56:48,571 - [32mINFO[0m - Connected to Gateway (Session ID: d2577de1b0634b37ee50147a98e13b6a).
+2026-01-16 03:56:49,105 - [32mINFO[0m - Logged in as mozafari#0
+2026-01-16 03:56:49,105 - [32mINFO[0m - Discovered 44 guild(s).
+2026-01-16 03:56:49,105 - [32mINFO[0m - Checking DMs.
+2026-01-16 03:56:52,664 - [32mINFO[0m - Checking friends.
+2026-01-16 03:56:52,665 - [32mINFO[0m - Discovered 23 friend(s).
+2026-01-16 03:56:52,665 - [32mINFO[0m - Checking voice channels.
+2026-01-16 03:56:52,665 - [32mINFO[0m - Quick check completed, waiting 10 seconds.
+2026-01-16 03:57:02,668 - [32mINFO[0m - State saved successfully.
