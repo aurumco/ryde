@@ -46,22 +46,6 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/asyncio/events.py", line 84, in _run
     self._context.run(self._callback, *self._args)
 asyncio.exceptions.InvalidStateError: invalid state
-2026-01-29 17:27:49,995 - [32mINFO[0m - Configuration loaded successfully.
-2026-01-29 17:27:49,995 - [32mINFO[0m - State loaded successfully.
-2026-01-29 17:27:50,002 - [32mINFO[0m - Starting Discord monitor.
-2026-01-29 17:27:50,002 - [32mINFO[0m - Logging in using static token.
-2026-01-29 17:27:50,289 - [32mINFO[0m - Found user agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36", build number 490986.
-2026-01-29 17:27:50,289 - [32mINFO[0m - Found TLS fingerprint target "chrome142".
-2026-01-29 17:27:53,619 - [32mINFO[0m - Connected to Gateway (session ID: da896a2c8fbb1fa1688304b8f2e6f9d5).
-2026-01-29 17:27:54,853 - [32mINFO[0m - Logged in as mozafari
-2026-01-29 17:27:54,854 - [32mINFO[0m - Discovered 44 guild(s).
-2026-01-29 17:27:54,854 - [32mINFO[0m - Checking DMs.
-2026-01-29 17:27:59,246 - [32mINFO[0m - Checking friends.
-2026-01-29 17:27:59,247 - [32mINFO[0m - Discovered 23 friend(s).
-2026-01-29 17:27:59,247 - [32mINFO[0m - Checking voice channels.
-2026-01-29 17:27:59,247 - [32mINFO[0m - Quick check completed, waiting 10 seconds.
-2026-01-29 17:28:09,249 - [32mINFO[0m - State saved successfully.
-2026-01-29 17:28:09,250 - [32mINFO[0m - Gateway received close code 1000 and reason 'Connection closed.'.
 2026-01-29 18:27:48,281 - [32mINFO[0m - Configuration loaded successfully.
 2026-01-29 18:27:48,281 - [32mINFO[0m - State loaded successfully.
 2026-01-29 18:27:48,292 - [32mINFO[0m - Starting Discord monitor.
@@ -403,3 +387,19 @@ asyncio.exceptions.InvalidStateError: invalid state
 2026-01-30 17:23:51,398 - [32mINFO[0m - Quick check completed, waiting 10 seconds.
 2026-01-30 17:24:01,400 - [32mINFO[0m - State saved successfully.
 2026-01-30 17:24:01,400 - [32mINFO[0m - Gateway received close code 1000 and reason 'Connection closed.'.
+2026-01-30 18:24:37,384 - [32mINFO[0m - Configuration loaded successfully.
+2026-01-30 18:24:37,385 - [32mINFO[0m - State loaded successfully.
+2026-01-30 18:24:37,395 - [32mINFO[0m - Starting Discord monitor.
+2026-01-30 18:24:37,395 - [32mINFO[0m - Logging in using static token.
+2026-01-30 18:24:37,814 - [32mINFO[0m - Found user agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36", build number 491574.
+2026-01-30 18:24:37,815 - [32mINFO[0m - Found TLS fingerprint target "chrome142".
+2026-01-30 18:24:41,557 - [32mINFO[0m - Connected to Gateway (session ID: 711fb987b77190e18187cad9c123195f).
+2026-01-30 18:24:42,709 - [32mINFO[0m - Logged in as mozafari
+2026-01-30 18:24:42,709 - [32mINFO[0m - Discovered 44 guild(s).
+2026-01-30 18:24:42,709 - [32mINFO[0m - Checking DMs.
+2026-01-30 18:24:46,864 - [32mINFO[0m - Checking friends.
+2026-01-30 18:24:46,864 - [32mINFO[0m - Discovered 23 friend(s).
+2026-01-30 18:24:46,865 - [32mINFO[0m - Checking voice channels.
+2026-01-30 18:24:46,865 - [32mINFO[0m - Quick check completed, waiting 10 seconds.
+2026-01-30 18:24:56,867 - [32mINFO[0m - State saved successfully.
+2026-01-30 18:24:56,867 - [32mINFO[0m - Gateway received close code 1000 and reason 'Connection closed.'.
