@@ -46,25 +46,6 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/asyncio/events.py", line 84, in _run
     self._context.run(self._callback, *self._args)
 asyncio.exceptions.InvalidStateError: invalid state
-2026-02-08 21:14:46,906 - [32mINFO[0m - Configuration loaded successfully.
-2026-02-08 21:14:46,907 - [32mINFO[0m - State loaded successfully.
-2026-02-08 21:14:46,917 - [32mINFO[0m - Starting Discord monitor.
-2026-02-08 21:14:46,917 - [32mINFO[0m - Logging in using static token.
-2026-02-08 21:14:47,032 - [32mINFO[0m - Found user agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36", build number 494673.
-2026-02-08 21:14:47,032 - [32mINFO[0m - Found TLS fingerprint target "chrome142".
-2026-02-08 21:14:48,604 - [32mINFO[0m - Connected to Gateway (session ID: 8ccecae45a452788daf0dd15755fedcf).
-2026-02-08 21:14:49,779 - [32mINFO[0m - Logged in as mozafari
-2026-02-08 21:14:49,780 - [32mINFO[0m - Discovered 46 guild(s).
-2026-02-08 21:14:49,780 - [32mINFO[0m - Checking DMs.
-2026-02-08 21:14:53,911 - [32mINFO[0m - Checking friends.
-2026-02-08 21:14:53,911 - [32mINFO[0m - Discovered 23 friend(s).
-2026-02-08 21:14:53,912 - [32mINFO[0m - Sending daily Statistics summary
-2026-02-08 21:14:54,334 - [32mINFO[0m - Message sent to Telegram successfully.
-2026-02-08 21:14:54,335 - [32mINFO[0m - Daily Statistics summary sent
-2026-02-08 21:14:54,335 - [32mINFO[0m - Checking voice channels.
-2026-02-08 21:14:54,335 - [32mINFO[0m - Quick check completed, waiting 10 seconds.
-2026-02-08 21:15:04,338 - [32mINFO[0m - State saved successfully.
-2026-02-08 21:15:04,338 - [32mINFO[0m - Gateway received close code 1000 and reason 'Connection closed.'.
 2026-02-08 22:13:43,737 - [32mINFO[0m - Configuration loaded successfully.
 2026-02-08 22:13:43,737 - [32mINFO[0m - State loaded successfully.
 2026-02-08 22:13:43,750 - [32mINFO[0m - Starting Discord monitor.
@@ -338,3 +319,22 @@ asyncio.exceptions.InvalidStateError: invalid state
 2026-02-09 20:28:15,466 - [32mINFO[0m - Quick check completed, waiting 10 seconds.
 2026-02-09 20:28:25,467 - [32mINFO[0m - State saved successfully.
 2026-02-09 20:28:25,468 - [32mINFO[0m - Gateway received close code 1000 and reason 'Connection closed.'.
+2026-02-09 21:27:51,301 - [32mINFO[0m - Configuration loaded successfully.
+2026-02-09 21:27:51,301 - [32mINFO[0m - State loaded successfully.
+2026-02-09 21:27:51,312 - [32mINFO[0m - Starting Discord monitor.
+2026-02-09 21:27:51,312 - [32mINFO[0m - Logging in using static token.
+2026-02-09 21:27:51,445 - [32mINFO[0m - Found user agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36", build number 494673.
+2026-02-09 21:27:51,445 - [32mINFO[0m - Found TLS fingerprint target "chrome142".
+2026-02-09 21:27:53,150 - [32mINFO[0m - Connected to Gateway (session ID: 3042c5e7bf82e9af909db9cf58cba039).
+2026-02-09 21:27:54,263 - [32mINFO[0m - Logged in as mozafari
+2026-02-09 21:27:54,264 - [32mINFO[0m - Discovered 46 guild(s).
+2026-02-09 21:27:54,264 - [32mINFO[0m - Checking DMs.
+2026-02-09 21:27:59,867 - [32mINFO[0m - Checking friends.
+2026-02-09 21:27:59,867 - [32mINFO[0m - Discovered 23 friend(s).
+2026-02-09 21:27:59,868 - [32mINFO[0m - Sending daily Statistics summary
+2026-02-09 21:28:00,349 - [32mINFO[0m - Message sent to Telegram successfully.
+2026-02-09 21:28:00,350 - [32mINFO[0m - Daily Statistics summary sent
+2026-02-09 21:28:00,350 - [32mINFO[0m - Checking voice channels.
+2026-02-09 21:28:00,350 - [32mINFO[0m - Quick check completed, waiting 10 seconds.
+2026-02-09 21:28:10,353 - [32mINFO[0m - State saved successfully.
+2026-02-09 21:28:10,353 - [32mINFO[0m - Gateway received close code 1000 and reason 'Connection closed.'.
