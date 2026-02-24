@@ -383,3 +383,26 @@ asyncio.exceptions.InvalidStateError: invalid state
 2026-02-24 16:52:16,071 - [32mINFO[0m - Quick check completed, waiting 10 seconds.
 2026-02-24 16:52:26,072 - [32mINFO[0m - State saved successfully.
 2026-02-24 16:52:26,073 - [32mINFO[0m - Gateway received close code 1000 and reason 'Connection closed.'.
+2026-02-24 17:47:42,307 - [32mINFO[0m - Configuration loaded successfully.
+2026-02-24 17:47:42,307 - [32mINFO[0m - State loaded successfully.
+2026-02-24 17:47:42,318 - [32mINFO[0m - Starting Discord monitor.
+2026-02-24 17:47:42,318 - [32mINFO[0m - Logging in using static token.
+2026-02-24 17:47:42,514 - [32mINFO[0m - Found user agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36", build number 501144.
+2026-02-24 17:47:42,514 - [32mINFO[0m - Found TLS fingerprint target "chrome142".
+2026-02-24 17:47:44,307 - [32mINFO[0m - Connected to Gateway (session ID: e26453bb66c1f87bf4a12b9d6251ebc5).
+2026-02-24 17:47:45,346 - [32mINFO[0m - Logged in as mozafari
+2026-02-24 17:47:45,346 - [32mINFO[0m - Discovered 46 guild(s).
+2026-02-24 17:47:45,346 - [32mINFO[0m - Checking DMs.
+2026-02-24 17:47:49,524 - [32mINFO[0m - Checking friends.
+2026-02-24 17:47:49,524 - [32mINFO[0m - Discovered 26 friend(s).
+2026-02-24 17:47:52,220 - [31mERROR[0m - Telegram sendPhoto error (attempt 1): status=400 details={'ok': False, 'error_code': 400, 'description': 'Bad Request: file of size 30659062 bytes is too big for a photo; the maximum size is 10485760 bytes'}
+2026-02-24 17:47:52,220 - [31mERROR[0m - Telegram sendPhoto failed (attempt 1): 400 Client Error: Bad Request for url: https://api.telegram.org/bot8444727609:AAF03V0wDNOWGXX2PGxRivtPFV2r69mCZkI/sendPhoto
+2026-02-24 17:47:55,378 - [31mERROR[0m - Telegram sendPhoto error (attempt 2): status=400 details={'ok': False, 'error_code': 400, 'description': 'Bad Request: file of size 30659062 bytes is too big for a photo; the maximum size is 10485760 bytes'}
+2026-02-24 17:47:55,378 - [31mERROR[0m - Telegram sendPhoto failed (attempt 2): 400 Client Error: Bad Request for url: https://api.telegram.org/bot8444727609:AAF03V0wDNOWGXX2PGxRivtPFV2r69mCZkI/sendPhoto
+2026-02-24 17:48:00,379 - [31mERROR[0m - Telegram sendPhoto error (attempt 3): status=400 details={'ok': False, 'error_code': 400, 'description': 'Bad Request: file of size 30659062 bytes is too big for a photo; the maximum size is 10485760 bytes'}
+2026-02-24 17:48:00,380 - [31mERROR[0m - Telegram sendPhoto failed (attempt 3): 400 Client Error: Bad Request for url: https://api.telegram.org/bot8444727609:AAF03V0wDNOWGXX2PGxRivtPFV2r69mCZkI/sendPhoto
+2026-02-24 17:48:03,892 - [32mINFO[0m - Message sent to Telegram successfully.
+2026-02-24 17:48:03,893 - [32mINFO[0m - Checking voice channels.
+2026-02-24 17:48:03,893 - [32mINFO[0m - Quick check completed, waiting 10 seconds.
+2026-02-24 17:48:13,896 - [32mINFO[0m - State saved successfully.
+2026-02-24 17:48:13,897 - [32mINFO[0m - Gateway received close code 1000 and reason 'Connection closed.'.
