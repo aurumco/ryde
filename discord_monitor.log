@@ -51,8 +51,6 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.14/x64/lib/python3.11/asyncio/events.py", line 84, in _run
     self._context.run(self._callback, *self._args)
 asyncio.exceptions.InvalidStateError: invalid state
-2026-02-25 14:01:07,333 - [32mINFO[0m - State saved successfully.
-2026-02-25 14:01:07,334 - [32mINFO[0m - Gateway received close code 1000 and reason 'Connection closed.'.
 2026-02-25 15:46:56,822 - [32mINFO[0m - Configuration loaded successfully.
 2026-02-25 15:46:56,822 - [32mINFO[0m - State loaded successfully.
 2026-02-25 15:46:56,833 - [32mINFO[0m - Starting Discord monitor.
@@ -389,3 +387,20 @@ asyncio.exceptions.InvalidStateError: invalid state
 2026-02-26 14:01:12,589 - [32mINFO[0m - Quick check completed, waiting 10 seconds.
 2026-02-26 14:01:22,591 - [32mINFO[0m - State saved successfully.
 2026-02-26 14:01:22,591 - [32mINFO[0m - Gateway received close code 1000 and reason 'Connection closed.'.
+2026-02-26 15:40:46,397 - [32mINFO[0m - Configuration loaded successfully.
+2026-02-26 15:40:46,398 - [32mINFO[0m - State loaded successfully.
+2026-02-26 15:40:46,409 - [32mINFO[0m - Starting Discord monitor.
+2026-02-26 15:40:46,409 - [32mINFO[0m - Logging in using static token.
+2026-02-26 15:40:46,523 - [32mINFO[0m - Found user agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36", build number 501798.
+2026-02-26 15:40:46,523 - [32mINFO[0m - Found TLS fingerprint target "chrome142".
+2026-02-26 15:40:48,294 - [32mINFO[0m - Connected to Gateway (session ID: 5816cb5661e1fed86647a925030070da).
+2026-02-26 15:40:49,305 - [32mINFO[0m - Logged in as mozafari
+2026-02-26 15:40:49,305 - [32mINFO[0m - Discovered 46 guild(s).
+2026-02-26 15:40:49,305 - [32mINFO[0m - Checking DMs.
+2026-02-26 15:40:53,298 - [32mINFO[0m - Message sent to Telegram successfully.
+2026-02-26 15:40:56,877 - [32mINFO[0m - Checking friends.
+2026-02-26 15:40:56,877 - [32mINFO[0m - Discovered 26 friend(s).
+2026-02-26 15:40:56,878 - [32mINFO[0m - Checking voice channels.
+2026-02-26 15:40:56,878 - [32mINFO[0m - Quick check completed, waiting 10 seconds.
+2026-02-26 15:41:06,880 - [32mINFO[0m - State saved successfully.
+2026-02-26 15:41:06,881 - [32mINFO[0m - Gateway received close code 1000 and reason 'Connection closed.'.
